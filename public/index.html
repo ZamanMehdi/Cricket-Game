@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="style.css" type="text/CSS">
+</head>
+<body>
+    <h1 class="first-msg">Wellcome to  My Circket  Game </h1>
+
+    <label for="teamA" class="bothteams">
+        Team A name :
+        <input type="text" name="team" id="teamA"  >
+    </label>
+
+    <label for="teamB" class="bothteams">
+        Team B name :
+        <input type="text" name="team" id="teamB" >
+    </label>
+
+    <button onClick="bothteams('teamA','teamB')" class="button-design">Chosen team</button>
+
+    <div class="world-cup">
+        <p id="team1" ></p>
+        <p id="team2" ></p>
+    </div>
+
+    <h2 class="first-msg">Chose the tose</h2>
+
+    <label for="teamToss" class="bothteams">
+        Which team  make the Toss :
+        <input type="text" name="teamToss" id="teamToss">
+    </label>    
+
+    <label for="toss" class="bothteams">
+        Head's  OR  Tail's :
+        <input type="text" name="toss" id="toss">
+    </label>    
+
+    <button onClick="tossOfMatch()" class="button-design">Click to toss</button>
+
+    <h1 class="first-msg"  id="tossFinal"></h1>
+    
+    <h1 id="Wickets">Wickets  : </h1>
+    <p id="noOfWickets">0</p>
+
+    <h1 id="score">score  :</h1>
+    <p id="totalScore">0</p>   
+
+    <h1 id="balls">Balls  :</h1>
+    <p id="totalBalls">0</p>
+
+    <h1 id="Overs">Overs  :</h1>
+    <p id="totalOvers"></p>
+
+    <button onClick="circketGame()" id="runButton">Runs</button>
+
+    <h1 id="Wickets1">Wickets  : </h1>
+    <p id="noOfWickets1">0</p>
+
+    <h1 id="score1">score  :</h1>
+    <p id="totalScore1">0</p>   
+
+    <h1 id="balls1">Balls  :</h1>
+    <p id="totalBalls1">0</p>
+
+    <h1 id="Overs1">Overs  :</h1>
+    <p id="totalOvers1"></p>
+
+    <button onClick="circketMatch()" id="runButton1">Runs</button>
+
+    <p id="Result"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>

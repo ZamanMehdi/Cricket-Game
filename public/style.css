@@ -1,0 +1,212 @@
+body
+{
+    background-color: lightcyan;
+    color: rgb(19, 129, 224);
+}
+
+.first-msg{
+    color: gray;
+    text-align: center;
+}
+
+.first-msg:hover{
+    color: black;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.bothteams
+{
+    margin-left: 200px;
+    font-size: 20px;
+    color:  black;
+}
+
+#teamA{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 6px;
+    background: transparent;
+    border-bottom:1px  solid cornflowerblue;
+    color: red;
+}
+
+#teamB{
+
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 20px;
+    padding: 6px;
+    background: transparent;
+    border-bottom: 1px solid cornflowerblue;
+    color: red;
+}
+
+.button-design{
+    
+    background-color: rgb(14, 240, 180);
+    font-size: 20px;
+    height: 50px;
+    width:120px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-style: hidden;    
+}
+
+.world-cup
+{
+    margin-top: 20px!important;
+    font-size: 20px;
+}
+
+#team1
+{
+    display: inline;
+    margin-left: 250px;
+    font-size: 60px;
+    color: red;
+    
+}
+
+#team2
+{
+    display: inline;
+    margin-left: 500px;
+    font-size: 60px;
+    color: red;    
+}
+
+#teamToss{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 6px;
+    background: transparent;
+    border-bottom: 1px solid cornflowerblue;
+    color: red;
+}
+
+#toss{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 20px;
+    padding: 6px;
+    background: transparent;
+    border-bottom: 1px solid cornflowerblue;
+    color: red;
+}
+
+#Wickets{
+    display: inline;
+    color: gray;
+}
+
+#noOfWickets{
+    display: inline;
+    margin-left: 30px;
+    font-size: 30px;
+    /* color: crimson; */
+}
+
+#score{
+
+    display: inline-block;
+    margin-left: 30px;
+    color: gray;
+}
+
+#totalScore{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#balls{
+    color: gray;
+}
+
+#totalBalls{
+    font-size: 30px;
+}
+#Overs{
+    color: gray;
+}
+
+#runButton
+{
+    display: block;
+    background-color: rgb(14, 240, 180);
+    font-size: 20px;
+    height: 40px;
+    width:100px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-style: hidden;
+}
+
+#runButton:hover{
+    background-color: darksalmon;
+    transition: all 0.5s ease-in-out;
+}
+
+
+#Wickets1{
+    display: inline;
+    color: gray;
+}
+
+#noOfWickets1{
+    display: inline;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#score1{
+
+    display: inline-block;
+    margin-left: 30px;
+    color: gray;
+}
+#totalScore1{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#balls1{
+    color: gray;
+}
+#totalBalls1{
+    font-size: 30px;
+}
+#Overs1{
+    color: gray;
+}
+
+#runButton1
+{
+    display: block;
+    background-color: rgb(14, 240, 180);
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-style: hidden;
+}
+#runButton1:hover{
+    background-color: darksalmon;
+    transition: all 0.5s ease-in-out;
+}
+
+
+#Result{
+    text-align: center;
+    color:rgb(0, 113, 128);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
